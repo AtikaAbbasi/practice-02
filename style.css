@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+
+
+.img{
+    margin-left: 1em;
+    width: 50px;
+    height: 50px;
+}
+
+.btn{
+    background-color:cornflowerblue;
+    color: black;
+}
+
+.btn:hover{
+    background-color:pink ;
+    border: 2px solid cornflowerblue;
+    
+}
+
+
+.sec1{
+    background-color: rgb(177, 174, 180);
+    min-height: 560px;
+    max-width: 99vw;
+    margin-top: 4em;
+    background-image: url(https://preview.redd.it/anime-style-cat-wallpaper-v0-8ibgpwicezqb1.png?width=1080&crop=smart&auto=webp&s=0a799b18fd57565692f64661c5563947eeead185);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cat{
+   padding-top: 3em;
+    margin-left: 0.7em;
+}
+
+.para{
+    padding-top: 0.4em;
+    margin-left: 0.5em;
+}
+
+.row{
+    width: 100%;
+}
+
+.card{
+   
+ 
+}
+
+.imggif{
+    height: 600px;
+    width: 100%;
+}
+
+
+
+
+.child{
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    color: rgb(7, 48, 48);
+
+}
+
+.imges{
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+
+}
+
+.child:hover{
+    transition: 2s ease;
+    transform: rotate(360deg);
+}
+
+.bgcolor{
+    min-height: 100vh;
+    max-width: 99vw;
+    background-color: rgb(216, 212, 213);
+}
+
+
+.head{
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.info{
+
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imges2{
+    height: 255px;
+    width: 544px;
+    border-radius: 17px;
+}
+
+/* 
+.boximg{
+    height: 477px;
+    width: 400px;
+    border-radius: 15px;
+ 
+} */
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.img2{
+    height: 233px;
+    width: 477px;
+    border-radius: 15px;
+    margin-bottom: 5em;
+ justify-content: center;
+  
+}
+
+.imgs{
+    height: 222px;
+    width: 399px;
+    border-radius: 13px;
+}
+
+
+.imges{
+   height: 188px;
+    width: 277px;
+    border-radius: 13px;
+} 
+
+
+.imgg{
+    height: 199px;
+    width: 395px;
+    border-radius: 18px;
+
+}
+
+
+
+.type{
+    height: 33px;
+    width: 260px;
+    border: none;
+   border-radius: 18px;
+   margin-left: 5em;
+   background-color: rgb(253, 251, 252);
+   border: 2px solid rgb(92, 206, 206);
+   
+}
+
+
+.fa{
+    font-size: 1.5em;
+
+}
+
+.br{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    height: 60px;
+    max-width: 100%;
+    background-color: rgb(11, 70, 86);
+    border-radius: 12px;
+}
+
+.creat{
+    text-align: center;
+   padding-top: 0.7em;
+   color: white;
+}
+
+
+@media(max-width:393px){
+   
+
+    .child1{
+        margin-bottom: 3em;
+    }
+
+.type{
+    width: 177px;
+    margin-left: -3em;
+}
+
+    }
+
+
+
+
+    @media(max-width:470px){
+.boximg{
+
+    height: 240px;
+    width: 235px;
+}
+    }
+    @media(max-width:500px){
+        .img2{
+  width: 200px;
+        }
+
+
+.imgs{
+    width: 200px;
+}
+  .imges{
+    width: 150px;
+  }
+
+.imgg{
+    width: 200px;
+}
+
+    }
+
+
+
+
+
+
+
+
+@media (max-width:360px){
+    .imggif{
+        height:300px ;
+        width: 250px;
+    }
+
+}
+
